@@ -1,4 +1,4 @@
-class vgo < Formula
+class Vgo < Formula
   desc "A tool for optimizing vector artwork files that helps ensure your vector artwork is represented compactly without compromising quality."
   homepage "https://github.com/jzbrooks/vgo"
   url "https://github.com/jzbrooks/vgo/releases/download/2.0.2/vgo"
