@@ -5,8 +5,6 @@ class Vgo < Formula
   version "2.1.0"
   sha256 "3c544dfb2449796add5505f61996e89e8de0c404d3402eb4c1591242134d375c"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   def install
