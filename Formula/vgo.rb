@@ -1,9 +1,9 @@
 class Vgo < Formula
   desc "A tool for optimizing vector artwork files that helps ensure your vector artwork is represented compactly without compromising quality."
   homepage "https://github.com/jzbrooks/vgo"
-  url "https://github.com/jzbrooks/vgo/releases/download/2.1.0/vgo"
-  version "2.1.0"
-  sha256 "3c544dfb2449796add5505f61996e89e8de0c404d3402eb4c1591242134d375c"
+  url "https://github.com/jzbrooks/vgo/releases/download/v2.2.0/vgo"
+  version "2.2.0"
+  sha256 "9b42b196e07647992f7c28a4f65b2b4aa945bbe682476c07cef2604913d2ed52"
 
   depends_on "openjdk"
 
