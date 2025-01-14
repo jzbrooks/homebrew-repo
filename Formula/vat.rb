@@ -1,14 +1,14 @@
 class Vat < Formula
   desc "A tool for rendering vector artwork to the terminal via kitty graphics protocol"
-  url "https://github.com/jzbrooks/vat/releases/download/0.0.2/vat"
-  version "0.0.2"
-  sha256 "a48cd2cb255278eee3cdd638a67b9cff5a5b5bd29cd9f76e03ad067ea0942b39"
+  url "https://github.com/jzbrooks/vat/releases/download/0.0.3/vat-macos-arm64"
+  version "0.0.3"
+  sha256 "2b3b81c3e44335b3164ca237f7845ce71bf7b85a34fb6c37fc2b1b3e90022a59"
 
   depends_on "openjdk"
 
   def install
-    libexec.install "vat"
-    bin.write_jar_script libexec/"vat", "vat"
+    libexec.install "vat-macos-arm64"
+    bin.write_jar_script libexec/"vat-macos-arm64", "vat"
   end
 
   test do
