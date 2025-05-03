@@ -1,8 +1,8 @@
 class Vgo < Formula
   desc "A tool for optimizing and converting between vector artwork representations."
-  url "https://github.com/jzbrooks/vgo/releases/download/v3.1.0/vgo"
-  version "3.1.0"
-  sha256 "210d2b6c7e614d439464a680b96b7be4abca4b751940ab6402258f9848e7b06d"
+  url "https://github.com/jzbrooks/vgo/releases/download/v3.2.0/vgo"
+  version "3.2.0"
+  sha256 "b80e1c8427bb80010d4e890e75e74f9f1195b0453b55d02b8d54c4c518da25d8"
 
   depends_on "openjdk"
 
