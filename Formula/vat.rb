@@ -1,8 +1,8 @@
 class Vat < Formula
   desc "A tool for rendering vector artwork to the terminal via kitty graphics protocol"
-  url "https://github.com/jzbrooks/vat/releases/download/0.0.8/vat-macos-arm64"
-  version "0.0.8"
-  sha256 "b444dcb0308afd50155f1ad1a5030812d96a711cfb2f974dec10c49a856f79ce"
+  url "https://github.com/jzbrooks/vat/releases/download/0.0.9/vat-macos-arm64"
+  version "0.0.9"
+  sha256 "46c4f9f1bec13542e0b2cc13a13b951cde38cf70f41de7975dc6b596078000c9"
 
   depends_on "openjdk"
 
