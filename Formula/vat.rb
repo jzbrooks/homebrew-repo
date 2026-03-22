@@ -8,7 +8,11 @@ class Vat < Formula
 
   def install
     libexec.install "vat-macos-arm64"
-    bin.write_jar_script libexec/"vat-macos-arm64", "vat"
+    (bin/"vat").write <<~EOS
+      #!/bin/bash
+      JAVA_HOME="${JAVA_HOME:-#{Formula["openjdk"].opt_prefix}/libexec/openjdk.jdk/Contents/Home}"
+      exec "${JAVA_HOME}/bin/java" --enable-native-access=ALL-UNNAMED -jar "#{libexec}/vat-macos-arm64" "$@"
+    EOS
   end
 
   test do
